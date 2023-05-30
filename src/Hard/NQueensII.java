@@ -1,7 +1,7 @@
 package Hard;
 import java.util.*;
 public class NQueensII {
-    public static void main(){
+    public static void main(String[] args) {
         System.out.println(totalNQueens(4));
     }
     public static boolean isSafe(int i,int j,HashSet<Integer> row,HashSet<Integer> col,HashSet<Integer> diag){
